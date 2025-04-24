@@ -31,6 +31,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link rel="icon"  href="assets/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://ozxlabs-studio.github.io/proklamasi-abadi/assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico/favicon_io/favicon.ico" />
+
+
     <style>
     .parallax-container {
         height: 450px;
@@ -121,6 +125,27 @@
             <div class="caption right-align">
               <h3>🌺 IDA AYU SRI MURNIATI™</h3>
               <h5 class="background-color: #000; grey-text text-lighten-3">"Setulus Hati ku - Semurni Cinta ku"</h5>
+            </div>
+          </li>
+          <li>
+            <img src="4.png" /></img>
+            <div class="caption center-align">
+              <h3>🌍 PROKLAMASI ABADI</h3>
+              <h5 class="background-color: #000; grey-text text-lighten-3">"Akhirat bukanlah di Alam lain yang tidak kamu kenal tetapi di Dunia ini".</h5>
+            </div>
+          </li>
+          <li>
+            <img src="5.png" /></img>
+            <div class="caption left-align">
+              <h3>👑 ELYION — The Proclaimer of ABADI</h3>
+              <h5 class="background-color: #000; grey-text text-lighten-3">"Carilah Tuhan mu dan Akhirat mu ketika kamu masih hidup".</h5>
+            </div>
+          </li>
+          <li>
+            <img src="4.png" /></img>
+            <div class="caption right-align">
+              <h3>🌺 IDA AYU SRI MURNIATI™</h3>
+              <h5 class="background-color: #000; grey-text text-lighten-3">"Nama adalah Doa. Lyrixia Lyraea Aphrodythe".</h5>
             </div>
           </li>
         </ul>
@@ -360,15 +385,16 @@
     });
   });
 </script>
-
+<script>
+// Unmute setelah load (masih tergantung browser)
+window.onload = () => {
+  const audio = document.getElementById("indonesiaRaya");
+  audio.muted = false;
+  audio.play();
+};
 </script>
 <script>
-    // Unmute setelah load (masih tergantung browser)
-    window.onload = () => {
-      const audio = document.getElementById("indonesiaRaya");
-      audio.muted = false;
-      audio.play();
-    };
+ 
     document.addEventListener("click", function handlePlay() {
   const audio = document.getElementById("indonesiaRaya");
   audio.play();
